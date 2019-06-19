@@ -1,0 +1,30 @@
+<http://host/sw/you/myvocab#Καθηγητής> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Person> .
+
+<http://host/sw/you/myvocab#Αίθουσες> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://host/sw/you/myvocab#Μαθήματα> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://host/sw/you/myvocab#Διαλέξεις> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://host/sw/you/myvocab#Καθηγητές> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+
+<http://host/sw/you/myvocab#Καθηγητής> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://host/sw/you/myvocab#Καθηγητής> <http://www.w3.org/2000/01/rdf-schema#domain> <http://host/sw/you/myvocab#Διαλέξεις> .
+<http://host/sw/you/myvocab#Καθηγητής> <http://www.w3.org/2000/01/rdf-schema#range> <http://host/sw/you/myvocab#Καθηγητές> .
+
+<http://host/sw/you/myvocab#Ωρα_Απο> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://host/sw/you/myvocab#Ωρα_Απο> <http://www.w3.org/2000/01/rdf-schema#domain> <http://host/sw/you/myvocab#Διαλέξεις> .
+<http://host/sw/you/myvocab#Ωρα_Απο> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#time> .
+
+<http://host/sw/you/myvocab#Ωρα_Εως> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://host/sw/you/myvocab#Ωρα_Εως> <http://www.w3.org/2000/01/rdf-schema#domain> <http://host/sw/you/myvocab#Διαλέξεις> .
+<http://host/sw/you/myvocab#Ωρα_Εως> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#time> .
+
+<http://host/sw/you/myvocab#Μαθήμα> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://host/sw/you/myvocab#Μαθήμα> <http://www.w3.org/2000/01/rdf-schema#domain> <http://host/sw/you/myvocab#Διαλέξεις> .
+<http://host/sw/you/myvocab#Μαθήμα> <http://www.w3.org/2000/01/rdf-schema#range> <http://host/sw/you/myvocab#Μαθήματα> .
+
+<http://host/sw/you/myvocab#Ημέρα> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://host/sw/you/myvocab#Ημέρα> <http://www.w3.org/2000/01/rdf-schema#domain> <http://host/sw/you/myvocab#Διαλέξεις> .
+<http://host/sw/you/myvocab#Ημέρα> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://host/sw/you/myvocab#Αιθουσα> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://host/sw/you/myvocab#Αιθουσα> <http://www.w3.org/2000/01/rdf-schema#domain> <http://host/sw/you/myvocab#Διαλέξεις> .
+<http://host/sw/you/myvocab#Αιθουσα> <http://www.w3.org/2000/01/rdf-schema#range> <http://host/sw/you/myvocab#Αίθουσες> .
